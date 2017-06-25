@@ -212,7 +212,7 @@ class RaiPlayIE(RaiBaseIE):
 
 
 class RaiPlayLiveIE(RaiBaseIE):
-    _VALID_URL = r'https?://(?:www\.)?raiplay\.it/dirette/(?P<id>\w*)'
+    _VALID_URL = r'https?://(?:www\.)?raiplay\.it/dirette/(?P<id>\w+)'
     _TEST = {
         'url': 'http://www.raiplay.it/dirette/rai3',
         'only_matching': True,
